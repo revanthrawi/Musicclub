@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    padding: 0;
+    font-family: 'Poppins', sans-serif
+}
+body {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: "Varela Round", Nunito, Montserrat, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans';
+    /* sets the text color to white */
+    min-height: 100%;
+    /* says the height of the body must be, at minimum, 100% of the window */
+  }
+
+.section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section .container {
+    height: 100%;
+    width: 100%;
+    background-color:#da8a1757;
+    position: relative;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    overflow: hidden
+}
+
+.section .container .form {
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex
+}
+
+.section .container .left-side {
+    padding: 5%;
+    width: 60%;
+    height: 100%
+}
+
+.section .container .left-side .content {
+    color: #fff;
+    letter-spacing: 1px;
+    margin-top: 80px;
+    padding: 10px 30px;
+    text-align: center
+}
+
+.section .container .left-side .social {
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.section .container .left-side .social .social-icons {
+    list-style: none;
+    display: flex
+}
+
+.section .container .left-side .social .social-icons li {
+    margin: 5px
+}
+
+.section .container .left-side .social .social-icons a {
+    color: #e8f0fe;
+    transition: all 1.2s
+}
+
+.section .container .left-side .social .social-icons a i {
+    color: #e8f0fe;
+    transition: all 1.2s
+}
+
+.section .container .left-side .social .social-icons a:hover i {
+    transform: rotate(360deg)
+}
+
+.section .container .left-side .social .terms {
+    list-style: none;
+    display: flex;
+    margin-top: 3px
+}
+
+.section .container .left-side .social .terms li .dots {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #e8f0fe;
+    display: flex;
+    margin: 12px 5px
+}
+
+.section .container .left-side .social .terms li a {
+    font-size: 12px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    color: #e8f0fe
+}
+
+.section .container .left-side .content h5 {
+    font-size: 19px
+}
+
+.section .container .left-side .content p {
+    font-size: 10px
+}
+
+.section .container .right-side {
+    width: 45%;
+    background-color: #1a909354;
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.section .container .right-side .forms {
+    padding-right: 20px;
+    width: 100%
+}
+
+.section .container .right-side .forms input {
+    width: 100% !important;
+    height: 45px;
+    border: none;
+    margin-bottom: 10px;
+    padding: 0px 10px;
+    border: 1.7px solid #beda2ad1;
+    transition: all 0.5s;
+    background-color: #463d3d;
+    border-radius: 2.5px;
+    outline: none;
+    box-shadow: none
+}
+
+.section .container .right-side .forms input[type="submit"] {
+    width: 100%;
+    background-color: rgb(55, 47, 47);
+    border-radius: 5px;
+    color: #fff;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border: none;
+    text-transform: uppercase
+}
+.section .container .right-side .forms input[type="button"] {
+    width: 100%;
+    background-color: rgb(55, 47, 47);
+    border-radius: 5px;
+    color: #fff;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border: none;
+    text-transform: uppercase
+}
+.section .container .right-side .forms input[type="button"]:hover {
+    background-color: #bd3c47
+}
+.section .container .right-side .forms input[type="submit"]:hover {
+    background-color: #bd3c47
+}
+
+.submit-button {
+    width: 110%
+    #e8f0fe;
+}
+
+.section .container .right-side .forms input:focus {
+    border: 2px solid #d1e8fe !important
+}
+
+.strength-list {
+    margin-left: 5px;
+    list-style: none;
+    margin-bottom: 5px
+}
+
+.form-inputs {
+    position: relative;
+    width: 100% !important
+}
+
+.form-inputs i {
+    position: absolute;
+    top: 14px;
+    right: -10px;
+    color: #e8f0fe;
+    z-index: 1000
+}
+
+.list-group i {
+    font-size: 10px;
+    color: #aaa
+}
+
+.list-group span {
+    font-size: 11px;
+    color: rgb(78, 65, 65);
+    letter-spacing:1px;
+}
+
+.green-color {
+    color: rgb(255, 255, 255) !important
+}
+
+.random_password {
+    margin-top: 5px;
+    letter-spacing: 1px;
+    font-size: 11px;
+    cursor: pointer
+}
+
+@media (max-width:750px) {
+    .section .container {
+        max-width: 350px
+    }
+
+    .section .container .left-side {
+        display: none
+    }
+
+    .section .container .right-side {
+        width: 100%
+    }
+}
+.glow-on-hover {
+    margin-left: 35%;
+    padding: 10px;
+    color:#e8f0fe;
+    background: rgb(78, 65, 65);
+    border-radius: 50px;
+    width: fit-content;
+    height: fit-content;
+    z-index: 0;
+
+}
+
+.glow-on-hover:before {
+    content: '';
+    background: linear-gradient(45deg, #a01c1ca9, #a3591db2, #aca91abf, #45ac1cae, #1bad95b4, #142eb0b5, #681cb9c4, #c4129eb2, #bd1717bd);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -10;
+    filter: blur(5px);
+    width: 100%;
+    height: 100%;
+    animation: glowing 35s linear infinite;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+
+.glow-on-hover:active:after {
+    background: transparent;
+}
+
+.glow-on-hover:hover:before {
+    opacity: 1;
+}
+
+.glow-on-hover:after {
+    z-index: -1;
+    content: '';
+    width: 100%;
+    height: 100%;
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 600% 0; }
+    100% { background-position: 0 0; }
+}
