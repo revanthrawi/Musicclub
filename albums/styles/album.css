@@ -1,0 +1,112 @@
+body {
+    background: url(../assets/images/bg.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans';
+    /* sets our font to the "Open Sans" typeface */
+    color: white;
+    /* sets the text color to white */
+    min-height: 100%;
+    /* says the height of the body must be, at minimum, 100% of the window */
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 10%;
+}
+
+.album-cover-art {
+    position: relative;
+    left: 35%;
+    top: 50%;
+    margin-top: 1rem;
+    width: 25%;
+}
+
+.album-view-details {
+    position: relative;
+    top: 1.5rem;
+    padding-top: 5%;
+}
+
+.album-view-details .album-view-title {
+    font-weight: 300;
+    font-size: 2rem;
+}
+
+.album-view-details .album-view-artist {
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+
+.album-view-details .album-view-release-info {
+    font-weight: 300;
+    font-size: 0.75rem;
+}
+
+.album-view-song-list {
+    width: 90%;
+    margin: 15px auto;
+    font-size: 0.75em;
+    border-collapse: collapse;
+}
+
+.album-view-song-item {
+    height: 3rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.song-item-number {
+    width: 5%;
+    min-width: 30px;
+}
+
+.song-item-title {
+    width: 85%;
+}
+
+.song-item-duration {
+    width: 5%;
+}
+
+.album-song-button {
+    text-align: center;
+    font-size: 14px;
+    background-color: white;
+    color: rgb(210, 40, 123);
+    border-radius: 50% 50%;
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+}
+
+.album-song-button:hover {
+    cursor: pointer;
+    color: white;
+    background-color: rgb(210, 40, 123);
+}
+
+.album-song-button span {
+    line-height: 28px;
+}
+
+@media (max-width: 640px) and (min-width: 320px) {
+    .album-view-details {
+        text-align: center;
+    }
+
+    .album-view-title {
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 1024px) and (min-width: 320px) {
+    .album-view-song-list {
+        position: relative;
+        top: 1rem;
+        width: 80%;
+        margin: auto;
+    }
+}

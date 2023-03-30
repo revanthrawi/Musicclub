@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Social Cues (2019)</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="https://0.s3.envato.com/files/195083621/tf-logo-2.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:400,800,600,700,300">
+    <link rel="stylesheet" type="text/css" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" type="text/css" href="styles/album.css">
+    <link rel="stylesheet" type="text/css" href="styles/player_bar.css">
+</head>
+
+<body class="album">
+    <main class="album-view container narrow">
+        <section class="clearfix">
+            <div class="album-view-details column half">
+                <h2 class="album-view-title">Social Cues</h2>
+                <h3 class="album-view-artist">Cage The Elephant</h3>
+                <h5 class="album-view-release-info">2019</h5>
+            </div>
+            <div class="column half">
+                <img src="./assets/images/album__covers/Social cues.jpeg" class="album-cover-art">
+            </div>
+        </section>
+        <table class="album-view-song-list">
+
+        </table>
+    </main>
+    <section class="player-bar">
+        <div class="container">
+            <div class="control-group main-controls">
+                <a class="previous">
+                    <span class="ion-skip-backward"></span>
+                </a>
+                <a class="play-pause">
+                    <span class="ion-play"></span>
+                </a>
+                <a class="next">
+                    <span class="ion-skip-forward"></span>
+                </a>
+            </div>
+            <div class="control-group currently-playing">
+                <h2 class="song-name"></h2>
+                <div class="seek-control">
+                    <div class="seek-bar">
+                        <div class="fill"></div>
+                        <div class="thumb"></div>
+                    </div>
+                    <div class="current-time">0:00</div>
+                    <div class="total-time">4:45</div>
+                </div>
+                <h2 class="artist-song-mobile"></h2>
+                <h3 class="artist-name"></h3>
+            </div>
+            <div class="control-group volume">
+                <span class="ion-volume-high icon"></span>
+                <div class="seek-bar">
+                    <div class="fill"></div>
+                    <div class="thumb"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>
+        var albumName = {
+            title: 'Social Cues',
+            artist: 'Cage The Elephant',
+            label: 'Alternate',
+            year: '2019',
+            albumArtUrl: "./assets/images/album__covers/Social cues.jpeg",
+            songs: [
+                { title: 'Broken Boy', duration: 4.41, audioUrl: 'assets/Album Files/Social Cues/Broken Boy' },
+                { title: 'Social Cues', duration: 3.11, audioUrl: 'assets/Album Files/Social Cues/Social Cues' },
+                { title: 'Black Madonna', duration: 3.45, audioUrl: 'assets/Album Files/Social Cues/Black Madonna' },
+                { title: 'Night Running', duration: 3.14, audioUrl: 'assets/Album Files/Social Cues/Night Running' },
+                { title: 'Skin and Bones', duration: 3.45, audioUrl: 'assets/Album Files/Social Cues/Skin and Bones' },
+                { title: 'Ready to Let Go', duration: 3.24, audioUrl: 'assets/Album Files/Social Cues/Ready to Let Go' },
+                { title: 'House of Glass', duration: 3.25, audioUrl: 'assets/Album Files/Social Cues/House of Glass' },
+                { title: 'Loves the Only Way', duration: 3.09, audioUrl: 'assets/Album Files/Social Cues/Loves the Only Way' },
+                { title: 'The War Is Over', duration: 3.40, audioUrl: 'assets/Album Files/Social Cues/The War Is Over' },
+                { title: 'Dance Dance', duration: 2.45, audioUrl: 'assets/Album Files/Social Cues/Dance Dance' },
+                { title: 'What Im Becoming', duration: 2.12, audioUrl: 'assets/Album Files/Social Cues/What Im Becoming' },
+                { title: 'Tokyo Smoke', duration: 3.27, audioUrl: 'assets/Album Files/Social Cues/Tokyo Smoke' },
+                { title: 'Goodbye', duration: 3.29, audioUrl: 'assets/Album Files/Social Cues/Goodbye' }
+            ]
+        };
+    </script>
+    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+    <script src="scripts/buzz.min.js"></script>
+    <script src="scripts/album.js"></script>
+</body>
