@@ -1,0 +1,448 @@
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Artists</title>
+  <link rel="icon" href="https://0.s3.envato.com/files/195083621/tf-logo-2.png" type="image/x-icon">
+  <link rel="stylesheet" href="./styles/skewscroll.css">
+  <style>
+    html 
+    {
+      padding-top: .5%;
+    }
+    body 
+    {
+      background-image: url("bg.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+  </style>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <div class="logo">
+    <img src="logo.jpg" alt="Logo" height="27px" width="180px">
+  </div>
+
+  <nav class="menu">
+    <ol>
+      <li class="menu-item"><a class="navanch" href="../index.html">Home</a></li>
+      <li class="menu-item">
+        <a class="navanch" href="../Explore.html">Explore</a>
+      </li>
+      <li class="menu-item">
+        <a class="navanch" href="#0">Album</a>
+        <ol class="sub-menu">
+          <li class="menu-item"><a class="navanch" href="../albums/Trending.html">Trending</a></li>
+          <li class="menu-item"><a class="navanch" href="../albums/Hot on Musicclub.html">HOT</a></li>
+          <li class="menu-item"><a class="navanch" href="../albums/New on Musicclub.html">New</a></li>
+        </ol>
+      </li>
+      <li class="menu-item">
+        <a class="navanch" href="#0">Login/Signup</a>
+        <ol class="sub-menu">
+          <li class="menu-item"><a class="navanch" href="../signup.php">Sign up</a></li>
+          <li class="menu-item"><a class="navanch" href="../login.php">Login</a></li>
+        </ol>
+      </li>
+    </ol>
+  </nav>
+  <div class="skewscroll">
+    <div class="skw-pages">
+      <div class="skw-page skw-page-1 active inactive">
+        <div class="skw-page__half skw-page__half--left">
+          <div class="skw-page__skewed">
+            <div class="skw-page__content">
+            </div>
+          </div>
+        </div>
+        <div class="skw-page__half skw-page__half--right">
+          <div class="skw-page__skewed">
+            <div class="skw-page__content">
+              <h2 class="skw-page__heading">Anirudh Ravichandran</h2>
+              <img class="animated-gif" src="./Artist_albums/assets/images/Anirudh.jpg">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="skw-page skw-page-2 active inactive">
+        <div class="skw-page__half skw-page__half--left">
+          <div class="skw-page__skewed">
+            <div class="skw-page__content">
+              <h2 class="skw-page__heading">Justin Bieber</h2>
+              <img class="animated-gif" src="./Artist_albums/assets/images/JB.jpg">
+            </div>
+          </div>
+        </div>
+        <div class="skw-page__half skw-page__half--right">
+          <div class="skw-page__skewed">
+            <div class="skw-page__content">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="skw-page skw-page-3 active">
+        <div class="skw-page__half skw-page__half--left">
+          <div class="skw-page__skewed">
+            <div class="skw-page__content"></div>
+          </div>
+        </div>
+        <div class="skw-page__half skw-page__half--right">
+          <div class="skw-page__skewed">
+            <div class="skw-page__content">
+              <h2 class="skw-page__heading">Zayn</h2>
+              <img class="animated-gif" src="./Artist_albums/assets/images/Zayn.webp">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="skw-page skw-page-4">
+        <div class="skw-page__half skw-page__half--left">
+          <div class="skw-page__skewed">
+            <div class="skw-page__content">
+              <h2 class="skw-page__heading">Lana del rey</h2>
+              <img class="animated-gif"
+                src="./Artist_albums/assets/images/Lana.webp">
+            </div>
+          </div>
+        </div>
+        <div class="skw-page__half skw-page__half--right">
+          <div class="skw-page__skewed">
+            <div class="skw-page__content"></div>
+          </div>
+        </div>
+      </div>
+      <div class="skw-page skw-page-5">
+        <div class="skw-page__half skw-page__half--left">
+          <div class="skw-page__skewed">
+            <div class="skw-page__content"></div>
+          </div>
+        </div>
+        <div class="skw-page__half skw-page__half--right">
+          <div class="skw-page__skewed">
+            <div class="skw-page__content">
+              <h2 class="skw-page__heading">Taylor swift</h2>
+              <img class="animated-gif"
+                src="./Artist_albums/assets/images/Taylor.webp">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="wrapper">
+      <h1>Trending Artists</h1>
+      <div class="cols">
+        <div class="col" ontouchstart="this.classList.toggle('hover');">
+          <div class="container">
+            <div class="front"
+              style="background-image: url(./Artist_albums/assets/images/artist_covers/Ariana\ grande.jpeg)">
+              <div class="inner">
+                <span>Ariana grande</span>
+              </div>
+            </div>
+            <div class="back">
+              <div class="inner">
+                <p class="listennow"><a href="./Artist_albums/ariana.html"> Listen now</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col" ontouchstart="this.classList.toggle('hover');">
+          <div class="container">
+            <div class="front" style="background-image: url(./Artist_albums/assets/images/artist_covers/Justin.jpeg)">
+              <div class="inner">
+                <span>Justin bieber</span>
+              </div>
+            </div>
+            <div class="back">
+              <div class="inner">
+                <p class="listennow"><a href="Artist_albums/justinb.html">Listen now</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col" ontouchstart="this.classList.toggle('hover');">
+          <div class="container">
+            <div class="front" style="background-image: url(./Artist_albums/assets/images/artist_covers/Foster.jpeg)">
+              <div class="inner">
+                <span>Foster the People</span>
+              </div>
+            </div>
+            <div class="back">
+              <div class="inner">
+                <p class="listennow"><a href="Artist_albums/foster.html">Listen now</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col" ontouchstart="this.classList.toggle('hover');">
+          <div class="container">
+            <div class="front" style="background-image: url(./Artist_albums/assets/images/artist_covers/Anirudh.jpg)">
+              <div class="inner">
+                <span>Anirudh </span>
+              </div>
+            </div>
+            <div class="back">
+              <div class="inner">
+                <p class="listennow"><a href="./Artist_albums/anirudh.html">Listen now</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col" ontouchstart="this.classList.toggle('hover');">
+          <div class="container">
+            <div class="front"
+              style="background-image: url(./Artist_albums/assets/images/artist_covers/Sidsriram.jpeg)">
+              <div class="inner">
+                <span>Sid sriram</span>
+              </div>
+            </div>
+            <div class="back">
+              <div class="inner">
+                <p class="listennow"><a href="./Artist_albums/sidsriram.html">Listen now</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col" ontouchstart="this.classList.toggle('hover');">
+          <div class="container">
+            <div class="front" style="background-image: url(./Artist_albums/assets/images/artist_covers/Taylor.jpeg)">
+              <div class="inner">
+                <span>Taylor swift</span>
+              </div>
+            </div>
+            <div class="back">
+              <div class="inner">
+                <p class="listennow"><a href="./Artist_albums/taylorswift.html">Listen now</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col" ontouchstart="this.classList.toggle('hover');">
+          <div class="container">
+            <div class="front" style="background-image: url(./Artist_albums/assets/images/artist_covers/Harry.jpeg)">
+              <div class="inner">
+                <span>Harry styles</span>
+              </div>
+            </div>
+            <div class="back">
+              <div class="inner">
+                <p class="listennow"><a href="./Artist_albums/harry.html">Listen
+                    now</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col" ontouchstart="this.classList.toggle('hover');">
+          <div class="container">
+            <div class="front" style="background-image: url(./Artist_albums/assets/images/artist_covers/Doja.jpeg)">
+              <div class="inner">
+                <span>Doja cat</span>
+              </div>
+            </div>
+            <div class="back">
+              <div class="inner">
+                <p class="listennow"><a href="./Artist_albums/doja.html">Listen now</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="wrapper">
+          <h1>Top 4</h1>
+          <div class="cols">
+            <div class="col" ontouchstart="this.classList.toggle('hover');">
+              <div class="container">
+                <div class="front" style="background-image: url(./Artist_albums/assets/images/artist_covers/Zayn.jpeg)">
+                  <div class="inner">
+                    <span>Zayn</span>
+                  </div>
+                </div>
+                <div class="back">
+                  <div class="inner">
+                    <a href="artist_tracks.html"></a>
+                    <p class="listennow"><a href="./Artist_albums/Zayn.html">Listen
+                        now</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col" ontouchstart="this.classList.toggle('hover');">
+              <div class="container">
+                <div class="front" style="background-image: url(./Artist_albums/assets/images/artist_covers/Lana.jpeg)">
+                  <div class="inner">
+                    <span>Lana Del Rey</span>
+                  </div>
+                </div>
+                <div class="back">
+                  <div class="inner">
+                    <p class="listennow"><a href="./Artist_albums/lana.html">Listen
+                        now</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col" ontouchstart="this.classList.toggle('hover');">
+              <div class="container">
+                <div class="front"
+                  style="background-image: url(./Artist_albums/assets/images/artist_covers/Billie.jpeg)">
+                  <div class="inner">
+                    <span>Billie elish</span>
+                  </div>
+                </div>
+                <div class="back">
+                  <div class="inner">
+                    <p class="listennow"><a href="./Artist_albums/billie.html">Listen
+                        now</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col" ontouchstart="this.classList.toggle('hover');">
+              <div class="container">
+                <div class="front"
+                  style="background-image: url(./Artist_albums/assets/images/artist_covers/arrahman.jpeg)">
+                  <div class="inner">
+                    <span>Ar rahman</span>
+                  </div>
+                </div>
+                <div class="back">
+                  <div class="inner">
+                    <a href="artist_tracks.html"></a>
+                    <p class="listennow"><a href="./Artist_albums/ar rahman.html">Listen
+                        now</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="wrapper">
+          <h1>Recommended </h1>
+          <div class="cols">
+            <div class="col" ontouchstart="this.classList.toggle('hover');">
+              <div class="container">
+                <div class="front"
+                  style="background-image: url(./Artist_albums/assets/images/artist_covers/Twenty.jpeg)">
+                  <div class="inner">
+                    <span>Twenty one pilots</span>
+                  </div>
+                </div>
+                <div class="back">
+                  <div class="inner">
+                    <p class="listennow"><a href="./Artist_albums/twentyone.html">Listen
+                        now</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col" ontouchstart="this.classList.toggle('hover');">
+              <div class="container">
+                <div class="front"
+                  style="background-image: url(./Artist_albums/assets/images/artist_covers/Pritam.jpeg)">
+                  <div class="inner">
+                    <span>Pritam</span>
+                  </div>
+                </div>
+                <div class="back">
+                  <div class="inner">
+                    <p class="listennow"><a href="./Artist_albums/pritam.html">Listen
+                        now</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col" ontouchstart="this.classList.toggle('hover');">
+              <div class="container">
+                <div class="front"
+                  style="background-image: url(./Artist_albums/assets/images/artist_covers/Maroon.jpeg)">
+                  <div class="inner">
+                    <span> Maroon 5</span>
+                  </div>
+                </div>
+                <div class="back">
+                  <div class="inner">
+                    <p class="listennow"><a href="./Artist_albums/maroon5.html">Listen now</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col" ontouchstart="this.classList.toggle('hover');">
+              <div class="container">
+                <div class="front"
+                  style="background-image: url(./Artist_albums/assets/images/artist_covers/Drake.jpeg)">;
+                  <div class="inner">
+                    <span>Drake</span>
+                  </div>
+                </div>
+                <div class="back">
+                  <div class="inner">
+                    <a href="artist_tracks.html"></a>
+                    <p class="listennow"><a href="./Artist_albums/Drake.html">Listen now</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <footer>
+    <div class="fcontainer">
+      <div class="row">
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul>
+            <li><a class="footerlink" href="#">About us</a></li>
+            <li><a class="footerlink" href="#">Our services</a></li>
+            <li><a class="footerlink" href="#">Privacy policy</a></li>
+            <li><a class="footerlink" href="#">Programs</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Client Help</h4>
+          <ul>
+            <li><a class="footerlink" href="#">FAQ</a></li>
+            <li><a class="footerlink" href="#">Jobs</a></li>
+            <li><a class="footerlink" href="#">Status</a></li>
+            <li><a class="footerlink" href="#">Site Map</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Account</h4>
+          <ul>
+            <li><a class="footerlink" href="#">Orders</a></li>
+            <li><a class="footerlink" href="#">Cart</a></li>
+            <li><a class="footerlink" href="#">Cancellations</a></li>
+            <li><a class="footerlink" href="#">Payments</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>follow us</h4>
+          <div class="social-links">
+            <a class="footerlink" href="#"><i class="fab fa-facebook-f"></i></a>
+            <a class="footerlink" href="#"><i class="fab fa-twitter"></i></a>
+            <a class="footerlink" href="#"><i class="fab fa-instagram"></i></a>
+            <a class="footerlink" href="#"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script type="text/javascript" async="" src="./scripts/ga.js.download"></script>
+  <script src="./scripts/jquery-2.1.4.min.js.download"></script>
+  <script src="./scripts/skewscroll.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Foster the People Essentials</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="https://0.s3.envato.com/files/195083621/tf-logo-2.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:400,800,600,700,300">
+    <link rel="stylesheet" type="text/css" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" type="text/css" href="styles/album.css">
+    <link rel="stylesheet" type="text/css" href="styles/player_bar.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+</head>
+
+<body class="album">
+    <div class="logo">
+        <img src="./assets/images/logo.jpg" alt="Logo" height="27px" width="180px">
+    </div>
+    <nav class="menu">
+        <ol>
+            <li class="menu-item">
+                <a class="navanch" href="C:\Users\saiba\Downloads\wt\Main.html">Back</a>
+                </div>
+                </a>
+            </li>
+    </nav>
+
+    <main class="album-view container narrow">
+        <section class="clearfix">
+            <div class="content__middle">
+                <div class="artist is-verified">
+
+                    <div class="artist__header">
+
+                        <div class="artist__info">
+
+                            <div class="profile__img">
+
+                                <img src="./assets/images/artist_covers/Foster.jpeg" alt="" />
+
+                            </div>
+
+                            <div class="artist__info__meta">
+
+                                <div class="artist__info__type">Artist</div>
+
+                                <div class="artist__info__name">Foster the People</div>
+
+                                <div class="artist__info__actions">
+
+                                    <button class="button-dark">
+                                        <i class="ion-ios-play"></i>
+                                        Play
+                                    </button>
+
+                                    <button class="button-light">Follow</button>
+
+                                </div>
+
+                            </div>
+
+
+
+                            <div class="artist__listeners">
+
+                                <div class="artist__listeners__count">16,662,810</div>
+
+                                <div class="artist__listeners__label"><i>Monthly Listeners</i></div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <table class="album-view-song-list">
+        </table>
+    </main>
+    <section class="player-bar">
+        <div class="container">
+            <div class="control-group main-controls">
+                <a class="previous">
+                    <span class="ion-skip-backward"></span>
+                </a>
+                <a class="play-pause">
+                    <span class="ion-play"></span>
+                </a>
+                <a class="next">
+                    <span class="ion-skip-forward"></span>
+                </a>
+            </div>
+            <div class="control-group currently-playing">
+                <h2 class="song-name"></h2>
+                <div class="seek-control">
+                    <div class="seek-bar">
+                        <div class="fill"></div>
+                        <div class="thumb"></div>
+                    </div>
+                    <div class="current-time">0:00</div>
+                    <div class="total-time">4:45</div>
+                </div>
+                <h2 class="artist-song-mobile"></h2>
+                <h3 class="artist-name"></h3>
+            </div>
+            <div class="control-group volume">
+                <span class="ion-volume-high icon"></span>
+                <div class="seek-bar">
+                    <div class="fill"></div>
+                    <div class="thumb"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        var albumName = {
+            title: '',
+            artist: 'Foster The People',
+            label: 'Indie',
+            year: '2021',
+            albumArtUrl: 'assets/images/album_covers/Foster.jpeg',
+            songs: [
+                { title: 'Ride Or Die(feat. Foster The People) ', duration: 3.13, audioUrl: 'assets/Artist Albums/Foster the People - Essentials/05. Ride Or Die (feat. Foster The People)' },
+                { title: 'Helena Beat', duration: 3.36, audioUrl: 'assets/Artist Albums/Foster the People - Essentials/04. Helena Beat' },
+                { title: 'Sit Next to Me', duration: 3.42, audioUrl: 'assets/Artist Albums/Foster the People - Essentials/03. Sit Next to Me' },
+                { title: 'Best Friend', duration: 4.14, audioUrl: 'assets/Artist Albums/Foster the People - Essentials/13. Best Friend' },
+                { title: 'Pumped Up Kicks', duration: 4.22, audioUrl: 'assets/Artist Albums/Foster the People - Essentials/02. Pumped Up Kicks' },
+                { title: 'Style', duration: 4.36, audioUrl: 'assets/Artist Albums/Foster the People - Essentials/01. Style.mp3' }
+            ]
+        };
+    </script>
+
+    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+    <script src="./scripts/buzz.min.js"></script>
+    <script src="scripts/album.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Billie Eilish Essentials</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="https://0.s3.envato.com/files/195083621/tf-logo-2.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:400,800,600,700,300">
+    <link rel="stylesheet" type="text/css" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" type="text/css" href="styles/main.css">
+    <link rel="stylesheet" type="text/css" href="styles/album.css">
+    <link rel="stylesheet" type="text/css" href="styles/player_bar.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  
+</head>
+
+<body class="album">
+    <div class="logo">
+        <img src="./assets/images/logo.jpg" alt="Logo" height="27px" width="180px">
+    </div>
+    <nav class="menu">
+        <ol>
+            <li class="menu-item">
+                <a class="navanch" href="../Main.html">Back</a>
+                </div>
+                </a>
+            </li>
+    </nav>
+
+    <main class="album-view container narrow">
+        <section class="clearfix">
+            <div class="content__middle">
+                <div class="artist is-verified">
+
+                    <div class="artist__header">
+
+                        <div class="artist__info">
+
+                            <div class="profile__img">
+
+                                <img src="./assets/images/artist_covers/Billie.jpeg" alt="Billie" />
+
+                            </div>
+
+                            <div class="artist__info__meta">
+
+                                <div class="artist__info__type">Artist</div>
+
+                                <div class="artist__info__name">Billie Eilish</div>
+
+                                <div class="artist__info__actions">
+
+                                    <button class="button-dark">
+                                        <i class="ion-ios-play"></i>
+                                        Play
+                                    </button>
+
+                                    <button class="button-light">Follow</button>
+
+                                </div>
+
+                            </div>
+
+
+
+                            <div class="artist__listeners">
+
+                                <div class="artist__listeners__count">16,662,810</div>
+
+                                <div class="artist__listeners__label"><i>Monthly Listeners</i></div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <table class="album-view-song-list">
+        </table>
+    </main>
+    <section class="player-bar">
+        <div class="container">
+            <div class="control-group main-controls">
+                <a class="previous">
+                    <span class="ion-skip-backward"></span>
+                </a>
+                <a class="play-pause">
+                    <span class="ion-play"></span>
+                </a>
+                <a class="next">
+                    <span class="ion-skip-forward"></span>
+                </a>
+            </div>
+            <div class="control-group currently-playing">
+                <h2 class="song-name"></h2>
+                <div class="seek-control">
+                    <div class="seek-bar">
+                        <div class="fill"></div>
+                        <div class="thumb"></div>
+                    </div>
+                    <div class="current-time">0:00</div>
+                    <div class="total-time">4:45</div>
+                </div>
+                <h2 class="artist-song-mobile"></h2>
+                <h3 class="artist-name"></h3>
+            </div>
+            <div class="control-group volume">
+                <span class="ion-volume-high icon"></span>
+                <div class="seek-bar">
+                    <div class="fill"></div>
+                    <div class="thumb"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>
+        var albumName = {
+            title: 'Billie Eilish Essentials',
+            artist: 'Billie Eilish',
+            label: 'Pop',
+            year: '2021',
+            albumArtUrl: 'assets/images/album_covers/Billie.jpeg',
+            songs: [
+                { title: 'Come out and play (live) ', duration: 3.13, audioUrl: 'assets/Artist Albums/Billie Eilish - Essentials/01 come out and play (live)' },
+                { title: 'Listen before i go (live)', duration: 3.26, audioUrl: 'assets/Artist Albums/Billie Eilish - Essentials/02 listen before i go (live)' },
+                { title: 'Everything i wanted', duration: 3.45, audioUrl: 'assets/Artist Albums/Billie Eilish - Essentials/03 everything i wanted' },
+                { title: 'bad guy', duration: 3.14, audioUrl: 'assets/Artist Albums/Billie Eilish - Essentials/04 bad guy' },
+                { title: 'bury a friend', duration: 3.35, audioUrl: 'assets/Artist Albums/Billie Eilish - Essentials/05 bury a friend' },
+                { title: 'all the good girls go to hell', duration: 4.12, audioUrl: 'assets/Artist Albums/Billie Eilish - Essentials/06 all the good girls go to hell' },
+                { title: 'when the partys over', duration: 3.36, audioUrl: 'assets/Artist Albums/Billie Eilish - Essentials/07 when the partys over' },
+                { title: 'you should see me in a crown', duration: 3.52, audioUrl: 'assets/Artist Albums/Billie Eilish - Essentials/08 you should see me in a crown' },
+                { title: 'ocean eyes', duration: 4.45, audioUrl: 'assets/Artist Albums/Billie Eilish - Essentials/09 ocean eyes' },
+                { title: 'my strange addiction', duration: 3.12, audioUrl: 'assets/Artist Albums/Billie Eilish - Essentials/10 my strange addiction' },
+
+            ]
+        };
+    </script>
+
+    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/buzz/1.1.10/buzz.min.js"></script>
+    <script src="scripts/fixtures.js"></script>
+    <script src="scripts/album.js"></script>
+</body>
+
+</html>

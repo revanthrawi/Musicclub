@@ -1,0 +1,477 @@
+body {
+    background: url(../assets/images/bg.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans';
+    /* sets our font to the "Open Sans" typeface */
+    color: white;
+    /* sets the text color to white */
+    min-height: 100%;
+    /* says the height of the body must be, at minimum, 100% of the window */
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 10%;
+}
+
+
+
+
+
+.artist__header .artist__info {
+  padding: 15px;
+  z-index: 1;
+  width: 80%;
+  margin-top: 63px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-end;
+}
+.artist__header .artist__info .profile__img {
+  margin-right: 15px;
+}
+.artist__header .artist__info .profile__img img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+.artist__header .artist__info__type {
+  color: #aaaaaa;
+  text-transform: uppercase;
+  font-size: 11px;
+  letter-spacing: 1px;
+}
+.artist__header .artist__info__name {
+  color: white;
+  font-size: 36px;
+  font-weight: 100;
+  padding: 0 0 10px 0;
+}
+.artist__header .artist__info__actions {
+  display: flex;
+  flex-flow: row wrap;
+}
+.artist__header .artist__info__actions button {
+  margin-right: 10px;
+  height: 27px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  padding: 0 15px;
+  font-weight: 500;
+}
+.artist__header .artist__info__actions button i {
+  font-size: 20px;
+  margin-right: 5px;
+}
+
+i
+{
+  font-style: italic;
+}
+.artist__header .artist__listeners {
+  width: 30%;
+  z-index: 1;
+  padding: 15px;
+  text-align: right;
+  color: #aaaaaa;
+  font-weight: 100;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+.artist__header .artist__listeners__label {
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+
+
+
+.artist.is-verified .profile__img {
+    position: relative;
+    
+}
+.artist__header .artist__info .profile__img {
+    margin-right: 15px;
+}
+
+.artist.is-verified .profile__img::after {
+   background-image: url();
+    position: relative;
+    bottom: 5px;
+    right: 25px;
+    color: white;
+    width: 25%;
+    height: 20px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1;
+}
+
+
+.album-view-song-list {
+    width: 90%;
+    margin: 15px auto;
+    font-size: 0.75em;
+    border-collapse: collapse;
+}
+
+.album-view-song-item {
+    height: 3rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.song-item-number {
+    width: 5%;
+    min-width: 30px;
+}
+
+.song-item-title {
+    width: 85%;
+}
+
+.song-item-duration {
+    width: 5%;
+}
+
+.album-song-button {
+    text-align: center;
+    font-size: 14px;
+    background-color: white;
+    color: rgb(210, 40, 123);
+    border-radius: 50% 50%;
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+}
+
+.album-song-button:hover {
+    cursor: pointer;
+    color: white;
+    background-color: rgb(210, 40, 123);
+}
+
+.album-song-button span {
+    line-height: 28px;
+}
+
+
+button {
+  border-radius: 40px;
+  border: none;
+  padding: 5px 15px;
+  text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 11px;
+    outline: none;
+}
+.button-dark {
+  background: #952ab6;
+  color: white;
+}
+.button-dark:hover {
+  background: #9ea6a1;
+}
+
+.button-light {
+  background: none;
+  color: #c8c8c8;
+  border: 1px solid #c8c8c8;
+}
+.button-light:hover {
+  border-color: rgb(11, 192, 90);
+  color: white;
+}
+
+
+
+@media (max-width: 640px) and (min-width: 320px) {
+    .album-view-details {
+        text-align: center;
+    }
+
+    .album-view-title {
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 1024px) and (min-width: 320px) {
+    .album-view-song-list {
+        position: relative;
+        top: 1rem;
+        width: 80%;
+        margin: auto;
+    }
+}
+
+
+
+
+.menu {
+  padding-top: 0px;
+  padding-left: 55%;
+  position: relative;
+}
+
+.divider {
+  padding-left: 45px;
+  padding-right: 45px;
+}
+
+body {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+}
+
+.container {
+  box-sizing: border-box;
+}
+
+:root {
+  --accent-color: #45494e;
+  --gradient-color: #fbfbfb;
+}
+
+a.navanch:focus {
+  outline: none;
+  position: relative;
+}
+
+a.navanch:focus:after {
+  width: 50px;
+}
+
+a.navanch:after {
+  content: "";
+  background: #fbfbfb;
+  position: absolute;
+  bottom: 5px;
+  left: 15px;
+
+  height: 2px;
+  width: 0;
+  transition: 0.5s;
+  transition-delay: 0.2s;
+}
+
+
+.divider {
+  padding-left: 3.2%;
+  padding-right: 3.2%;
+  padding-top: 3.5%;
+}
+
+.logo {
+  position: absolute;
+  padding-top: 12px;
+  padding-left: 0px;
+}
+
+.menu>ol {
+  list-style: none;
+  padding-left: 85%;
+}
+
+.menu>ol>li {
+  margin-bottom: 1px;
+  position: relative;
+  transition: 0.5s;
+}
+
+.menu>ol>li:nth-child(1) {
+  --accent-color: #2C3E50;
+  --gradient-color: #414141;
+}
+
+.menu>ol>li:nth-child(2) {
+  --accent-color: #2C3E50;
+  --gradient-color: #414141;
+}
+
+.menu>ol>li:nth-child(3) {
+  --accent-color: #2C3E50;
+  --gradient-color: #414141;
+}
+
+.menu>ol>li:nth-child(4) {
+  --accent-color: #2C3E50;
+  --gradient-color: #414141;
+}
+
+.menu>ol>li:nth-child(5) {
+  --accent-color: #2C3E50;
+  --gradient-color: #414141;
+}
+
+.menu>ol>li a {
+  color: skyblue;
+  text-shadow: 0px 0px 4px #282828;
+  display: block;
+  padding: 15px;
+  position: relative;
+  text-decoration: none;
+  z-index: 1;
+  font-style: oblique;
+}
+
+.menu>ol>li:focus,
+.menu>ol>li:focus-within,
+.menu>ol>li:hover {
+  z-index: 100;
+}
+
+.menu>ol>li:focus:after,
+.menu>ol>li:focus-within:after,
+.menu>ol>li:hover:after {
+  background: linear-gradient(to left, var(--accent-color), var(--gradient-color));
+  max-width: 800px;
+}
+
+.menu>ol>li:focus .sub-menu,
+.menu>ol>li:focus-within .sub-menu {
+  max-height: 500px;
+}
+
+.menu>ol>li:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  transition: 0.5s;
+  max-width: 0;
+  overflow: hidden;
+}
+
+.menu>ol .sub-menu {
+  border-left: 1px solid #fbfbfb;
+  margin-left: 22.5px;
+  list-style: none;
+  max-height: 0px;
+  overflow: hidden;
+  padding-left: 7.5px;
+  position: relative;
+  transition: 0.5s;
+  z-index: 1;
+}
+
+.menu>ol .sub-menu li {
+  font-size: 0.9em;
+}
+
+.menu>ol .sub-menu li:hover,
+.menu>ol .sub-menu li a:focus {
+  background: #8080809a;
+}
+
+.menu>ol .sub-menu li a:after {
+  bottom: 5px;
+  height: 1px;
+}
+
+.menu>ol .sub-menu li a:hover:after,
+.menu>ol .sub-menu li a:focus:after {
+  width: 15px;
+}
+
+@media (min-width: 500px) {
+  a.navanch:focus {
+    position: relative;
+  }
+
+  a.navanch:focus:after,
+  a.navanch:hover:after {
+    width: 50px;
+  }
+
+  a.navanch:after {
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+
+  .menu>ol {
+    display: block;
+    max-width: none;
+    text-align: center;
+  }
+
+  .menu>ol>li {
+
+    border-left: 0;
+    display: inline-block;
+    margin-left: -5px;
+    vertical-align: top;
+    width: 120px;
+  }
+
+  .menu>ol>li:hover:after,
+  .menu>ol>li:focus:after,
+  .menu>ol>li:focus-within:after {
+    background: linear-gradient(to bottom, var(--accent-color), var(--gradient-color));
+    border-radius: 3px;
+    top: -15px;
+    bottom: -15px;
+    left: -15px;
+    right: -15px;
+  }
+
+  .menu>ol>li:hover .sub-menu,
+  .menu>ol>li:focus .sub-menu,
+  .menu>ol>li:focus-within .sub-menu {
+    max-height: 750px;
+  }
+
+  .menu>ol .sub-menu {
+    border-left: 0;
+    margin: 15px -15px -15px;
+    padding-left: 0;
+  }
+}
+
+@media (min-width: 475px)
+ {
+  .menu>ol>li {
+    width: 155px;
+  }
+ 
+
+
+  .menu .links-container {
+    display: table;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100px;
+    color: white;
+    text-decoration: none;
+  }
+
+  .links-container .navbar-link {
+    display: table-cell;
+    position: relative;
+    height: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    vertical-align: middle;
+    color: white;
+    font-size: 0.625rem;
+    letter-spacing: 0.05rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .links-container .navbar-link:hover {
+    color: rgb(233, 50, 117);
+  }
+
+ }
